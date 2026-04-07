@@ -7,7 +7,21 @@ const MEDICATIONS = [
   { expensive: "Эссенциале", cheap: "Фосфоглив", category: "Гепатопротектор", economy: "до 60%" },
   { expensive: "Де-нол", cheap: "Висмута трикалия дицитрат", category: "ЖКТ", economy: "до 75%" },
   { expensive: "Актовегин", cheap: "Церебролизин", category: "Ноотроп", economy: "до 50%" },
-  { expensive: "Лоратадин Кларитин", cheap: "Лоратадин", category: "Антигистаминное", economy: "до 92%" },
+  { expensive: "Кларитин", cheap: "Лоратадин", category: "Антигистаминное", economy: "до 92%" },
+  { expensive: "Мезим форте", cheap: "Панкреатин", category: "Ферменты/ЖКТ", economy: "до 80%" },
+  { expensive: "Но-шпа", cheap: "Дротаверин", category: "Спазмолитик", economy: "до 90%" },
+  { expensive: "Мирамистин", cheap: "Хлоргексидин", category: "Антисептик", economy: "до 95%" },
+  { expensive: "Зиртек", cheap: "Цетиризин", category: "Антигистаминное", economy: "до 88%" },
+  { expensive: "Диффлюкан", cheap: "Флуконазол", category: "Противогрибковое", economy: "до 95%" },
+  { expensive: "Лазолван", cheap: "Амброксол", category: "Отхаркивающее", economy: "до 85%" },
+  { expensive: "Ренни", cheap: "Кальция карбонат + магния карбонат", category: "Антацид/ЖКТ", economy: "до 70%" },
+  { expensive: "Смекта", cheap: "Диосмектит", category: "Сорбент/ЖКТ", economy: "до 75%" },
+  { expensive: "Називин", cheap: "Оксиметазолин", category: "Сосудосуживающее", economy: "до 80%" },
+  { expensive: "Вольтарен", cheap: "Диклофенак", category: "НПВС/мазь", economy: "до 90%" },
+  { expensive: "Омез", cheap: "Омепразол", category: "ЖКТ/антисекреторное", economy: "до 85%" },
+  { expensive: "Линекс", cheap: "Бифидумбактерин", category: "Пробиотик", economy: "до 80%" },
+  { expensive: "Найз", cheap: "Нимесулид", category: "Обезболивающее/НПВС", economy: "до 75%" },
+  { expensive: "Аквамарис", cheap: "Натрия хлорид 0.9%", category: "Назальное средство", economy: "до 95%" },
 ];
 
 export default function MedicationsTab() {
