@@ -51,6 +51,20 @@ const MEDICATIONS = [
   { expensive: "Эспумизан", cheap: "Симетикон", category: "Ветрогонное/ЖКТ", economy: "до 75%" },
   { expensive: "Долобене", cheap: "Гепарин + декспантенол", category: "Противовоспалительное/мазь", economy: "до 65%" },
   { expensive: "Флюкостат", cheap: "Флуконазол", category: "Противогрибковое", economy: "до 90%" },
+  { expensive: "Конкор", cheap: "Бисопролол", category: "Сердце/бета-блокатор", economy: "до 85%" },
+  { expensive: "Престариум", cheap: "Периндоприл", category: "Сердце/от давления", economy: "до 80%" },
+  { expensive: "Лориста", cheap: "Лозартан", category: "Сердце/от давления", economy: "до 75%" },
+  { expensive: "Нолипрел", cheap: "Периндоприл + индапамид", category: "Сердце/от давления", economy: "до 70%" },
+  { expensive: "Кардиомагнил", cheap: "Ацетилсалициловая кислота + магния гидроксид", category: "Сердце/антиагрегант", economy: "до 80%" },
+  { expensive: "Плавикс", cheap: "Клопидогрел", category: "Сердце/антиагрегант", economy: "до 90%" },
+  { expensive: "Крестор", cheap: "Розувастатин", category: "Сердце/холестерин", economy: "до 85%" },
+  { expensive: "Аторис", cheap: "Аторвастатин", category: "Сердце/холестерин", economy: "до 80%" },
+  { expensive: "Панангин", cheap: "Аспаркам", category: "Сердце/калий+магний", economy: "до 75%" },
+  { expensive: "Верапамил СР", cheap: "Верапамил", category: "Сердце/антиаритмик", economy: "до 65%" },
+  { expensive: "Беталок ЗОК", cheap: "Метопролол", category: "Сердце/бета-блокатор", economy: "до 85%" },
+  { expensive: "Норваск", cheap: "Амлодипин", category: "Сердце/от давления", economy: "до 90%" },
+  { expensive: "Диован", cheap: "Валсартан", category: "Сердце/от давления", economy: "до 80%" },
+  { expensive: "Предуктал", cheap: "Триметазидин", category: "Сердце/метаболическое", economy: "до 75%" },
 ];
 
 export default function MedicationsTab() {
